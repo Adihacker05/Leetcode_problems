@@ -13,7 +13,7 @@ class Solution {
         }
         for(int k=i+1;k<n;k++)
         {
-            if(nums[k]!=0 && nums[k]==0)
+            if(nums[k]!=0 && nums[i]==0)
             {
                 temp=nums[k];
                 nums[k]=nums[i];
